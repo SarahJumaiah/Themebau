@@ -1,4 +1,171 @@
-*{
-    margin: 0%;
-    padding: 0%;
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    padding-right: 5%;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    width: 15%;
+    text-align: right;
+}
+
+
+.nav-links {
+    display: flex;
+    gap: 10px;
+    width: 70%;
+    justify-content: flex-end;
+    justify-items: space-between;
+    gap: 1.5rem;
+}
+
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.purchase-btn {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.purchase-btn a {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+
+.purchase-btn span {
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+}
+
+.container1 {
+    border: 1px solid black;
+    background-color: black;
+    height: 100vh;
+    align-items: center;
+    justify-items: center;
+}
+
+.h1-text{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 80px;
+}
+
+
+.p-text{
+    background-color: black;
+    color: white;
+    text-align: center;
+    line-height: 1.5rem;
+}
+
+.imgrid{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 10px;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+.imgrid img{
+    height: 400px;
+    width: 420px;
+}
+
+.white-container{
+    height: 100%;
+    display: flex;
+    background-color: white;
+}
+
+.ximgs{
+    display: flex;
+    background-color: white;
+    height: 30rem;
+    position: relative;
+    justify-content: flex-end;
+    margin-left: 2rem;
+}
+
+.img1{
+    
+    transform: translate(0px,20px);
+}
+
+.img2{
+    transform: translate(-9rem,10rem);
+
+}
+
+.wc-text{
+    height: 1rem;
+    width: auto;
+}
+
+.wc-text h2{
+    transform: translate(3rem,10rem);
+
+}
+
+.wc-text p{
+    transform: translate(7rem,10rem);
+
+}
+
+.last-btn {
+    display: flex;
+    transform: translate(7rem,10rem);
+}
+
+
+.last-btn a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+
+.last-btn span {
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+}
+
+.row-imgs{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.lastp{
+    text-align: center;
+    justify-content: center;
 }
